@@ -2,6 +2,8 @@
 
 This is my conversion of the [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) template to [Middleman](http://middlemanapp.com).  
 There are [many](https://github.com/sandiegoscott/middleman-clean-blog) versions [like it](https://github.com/Devahoy/middlehoy), but this one is mine.  
+My code is ugly. It is not pro-level by any stretch. I will master it as I master my ruby skills.  
+
 
 The things I've modified or added:  
 * Google Analytics
