@@ -10,14 +10,14 @@ The things I've modified or added:
 * Google Analytics
 * Social & sharing buttons for each post (facebook, twitter, reddit, email)
 * Various configurable settings via `data/site.yml`  
-   * siteurl 
-   * sitename  
-   * subtitle  
-   * author  
-   * google_tracking_id (*comment out and it won't be included in the partial*) 
-   * twitter   
-   * facebook   
-   * github   
+   * siteurl (*mostly for proper social sharing links*)  
+   * sitename (*ditto*)  
+   * subtitle  (*just because*)  
+   * author  (*easier than going through the templates to replace each instance*)  
+   * google_tracking_id (*comment out and it won't be included in the partial*)  
+   * twitter (*footer*)  
+   * facebook (*footer*)    
+   * github (*footer*)     
 
 Feel free to fork and modify it to suite your own site needs.
 
