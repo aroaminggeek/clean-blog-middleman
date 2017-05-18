@@ -9,6 +9,7 @@ The things I've modified or added:
 * `vendor` removed and everything smashed in to `assets`  
 * Google Analytics
 * Social & sharing buttons for each post (facebook, twitter, reddit, email)
+* Meta tags for Open Graph  
 * Various configurable settings via `data/site.yml`  
    * siteurl (*mostly for proper social sharing links*)  
    * sitename (*ditto*)  
