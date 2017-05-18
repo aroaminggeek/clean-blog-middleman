@@ -6,7 +6,15 @@ There are [many](https://github.com/sandiegoscott/middleman-clean-blog) versions
 The things I've modified or added:  
 * Optional Google Analytics
 * Social share buttons for each post
-* Various configurable settings via `data/site.yml`    
+* Various configurable settings via `data/site.yml`  
+   * siteurl: http://localhost:4567  
+   * sitename: Your Site  
+   * subtitle: A Middleman Template  
+   * author: The Middleman  
+   * #google_tracking_id: '86-75309-9'  
+   * twitter: twitter_handle  
+   * facebook: facebook_id  
+   * github: github_user  
 
 Feel free to fork and modify it to suite your own site needs.
 
