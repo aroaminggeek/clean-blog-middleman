@@ -6,6 +6,7 @@ My code is ugly. It is not pro-level by any stretch. I will master it as I maste
 
 
 The things I've modified or added:  
+* `vendor` removed and everything smashed in to `assets`  
 * Google Analytics
 * Social & sharing buttons for each post (facebook, twitter, reddit, email)
 * Various configurable settings via `data/site.yml`  
