@@ -20,7 +20,7 @@ The things I've modified or added:
    * facebook (*footer*)    
    * github (*footer*)     
 
-Feel free to fork and modify it to suite your own site needs.
+Feel free to fork and modify it to suit your own site needs/improve my awful code.
 
 
 
