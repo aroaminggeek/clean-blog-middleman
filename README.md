@@ -1,6 +1,13 @@
-This is my conversion of the Clean Blog template to Middleman.  
+This is my conversion of the [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) template to Middleman.  
 There are [many](https://github.com/sandiegoscott/middleman-clean-blog) versions [like it](https://github.com/Devahoy/middlehoy), but this one is mine.  
+
+The things I've modified or added:  
+* Optional Google Analytics
+* Social share buttons for each post
+* Various configurable settings via `data/site.yml`    
+
 Feel free to fork and modify it to suite your own site needs.
+
 
 
 # Original README:  
