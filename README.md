@@ -1,3 +1,5 @@
+# Clean Blog for Middleman
+
 This is my conversion of the [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/) template to Middleman.  
 There are [many](https://github.com/sandiegoscott/middleman-clean-blog) versions [like it](https://github.com/Devahoy/middlehoy), but this one is mine.  
 
