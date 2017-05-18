@@ -1,0 +1,39 @@
+---
+pageable: true
+per_page: 5
+---
+
+
+<% page_articles.each_with_index do |article, i| %>
+                <div class="post-preview">
+                    <a href="<%= article.url %>">
+                        <h2 class="post-title">
+                            <%= article.title %>
+                        </h2>
+                        <h3 class="post-subtitle">
+                            <%= article.data.subtitle %>
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <%= data.site.author %> on <%= article.date.strftime("%B") %> <%= article.date.day.ordinalize %>, <%= article.date.strftime("%Y") %></p>
+                </div>
+                <hr>
+<% end %>
+
+
+               <% if paginate && num_pages > 1 %>
+               <ul class="pager"><li>Page <%= page_number %> of <%= num_pages %></li></ul>
+               <ul class="pager">
+                  
+
+                     <% if prev_page %>
+                        <li><%= link_to( 'Previous page', prev_page) %></li>
+                     <% end %>
+               <% end %>
+               
+               <% if paginate %>
+                     <% if next_page %>
+                        <li><%= link_to( 'Next page', next_page) %></li>
+                      <% end %>
+                      </ul>
+               <% end %>
+              
