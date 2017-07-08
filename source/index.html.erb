@@ -14,7 +14,7 @@ per_page: 5
                             <%= article.data.subtitle %>
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <%= data.site.author %> on <%= article.date.strftime("%B") %> <%= article.date.day.ordinalize %>, <%= article.date.strftime("%Y") %></p>
+                    <p class="post-meta">Posted by <%= data.site.author %> on <%= pretty(article.date) %></p>
                 </div>
                 <hr>
 <% end %>

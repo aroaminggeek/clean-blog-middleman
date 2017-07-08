@@ -1,5 +1,6 @@
-require "active_support/core_ext/integer/inflections"
-
+# Needed for English Ordinal dates
+require 'date'
+require 'facets/integer/ordinal'
 # Page options, layouts, aliases and proxies
 ###
 # Per-page layout changes:
@@ -52,11 +53,12 @@ page "/feed.xml", layout: false
 # end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+# Methods defined in the helpers block are available in templates
+helpers do
+  def pretty(date)
+      "#{date.strftime('%B')} #{date.strftime('%e').to_i.ordinalize}, #{date.strftime('%Y')}"
+    end  
+end
 
 # Build-specific configuration
 configure :build do
