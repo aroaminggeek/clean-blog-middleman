@@ -21,18 +21,22 @@ per_page: 5
 
 
                <% if paginate && num_pages > 1 %>
-               <ul class="pager"><li>Page <%= page_number %> of <%= num_pages %></li></ul>
                <ul class="pager">
+                
                   
 
                      <% if prev_page %>
-                        <li><%= link_to( 'Previous page', prev_page) %></li>
+                        <li class="previous">
+                          <a href="<%= prev_page.url %>">Previous page</a>
+                        </li>
                      <% end %>
                <% end %>
-               
+               <li>Page <%= page_number %> of <%= num_pages %></li>
                <% if paginate %>
                      <% if next_page %>
-                        <li><%= link_to( 'Next page', next_page) %></li>
+                        <li class="next">
+                          <a href="<%= next_page.url %>">Next page</a>
+                        </li>
                       <% end %>
                       </ul>
                <% end %>
