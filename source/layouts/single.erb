@@ -11,15 +11,15 @@
                   
             </div>
             <div class = "pager">
-    <a class="zocial twitter icon" href="https://twitter.com/share?url=<%= data.site.siteurl %><%=  current_page.url %>&amp;text=<%= current_page.data.title %> - <%= current_page.data.subtitle %>" target="_blank">Twitter</a>
+    <a class="zocial twitter icon" href="https://twitter.com/share?url=<%= data.site.siteurl %><%=  current_article.url %>&amp;text=<%= current_article.data.title %> - <%= current_article.data.subtitle %>" target="_blank">Twitter</a>
     <!-- Reddit -->
-    <a class="zocial reddit icon" href="http://reddit.com/submit?url=<%= data.site.siteurl %><%=  current_page.url %>&amp;title=<%= current_page.data.title %>" target="_blank">Reddit
+    <a class="zocial reddit icon" href="http://reddit.com/submit?url=<%= data.site.siteurl %><%=  current_article.url %>&amp;title=<%= current_article.data.title %>" target="_blank">Reddit
     </a>
     <!-- Facebook -->
-    <a class="zocial facebook icon" href="http://www.facebook.com/sharer.php?u=<%= data.site.siteurl %><%=  current_page.url% >" target="_blank">Facebook
+    <a class="zocial facebook icon" href="http://www.facebook.com/sharer.php?u=<%= data.site.siteurl %><%=  current_article.url %>" target="_blank">Facebook
     </a>
     <!-- Email -->
-    <a class="zocial email icon" href="mailto:?Subject=<%= current_page.data.title %>&amp;Body=I saw this and thought of you!  <%= data.site.siteurl %><%=  current_page.url %>">
+    <a class="zocial email icon" href="mailto:?Subject=<%= current_article.data.title %>&amp;Body=I saw this and thought of you!  <%= data.site.siteurl %><%=  current_article.url %>">
         Email
     </a>
 	</div>

@@ -12,7 +12,7 @@
                         <h1><% if current_page.data.title.nil? %><%= data.site.sitename %><% else %><%= current_page.data.title %><% end %></h1>
                         <hr class="small">
                         <span class="subheading"><% if current_page.data.subtitle.nil? %><%= data.site.subtitle %><% else %><%= current_page.data.subtitle %><% end %></span>
-                        <% unless current_page.data.date.nil? %><span class="post-meta ">Posted by <%= data.site.author %> on <%= current_page.date.strftime("%B") %> <%= current_page.date.day.ordinalize %>, <%= current_page.date.strftime("%Y") %></span>
+                        <% unless current_page.data.date.nil? %><span class="post-meta ">Posted by <%= data.site.author %> on <%= pretty(current_page.data.date) %></span>
 <% end %>
 
                     </div>
