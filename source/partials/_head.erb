@@ -31,7 +31,7 @@
 	   <meta property="og:description" content="<%= current_page.data.subtitle %>">
 	   <meta property="og:summary" content="<%= current_page.data.subtitle %>">
 	   <% end %>
-	   <% if current_page.data.cover_image %>
+	   <% if current_page.data.header_cover %>
    	<meta property="og:image" content="<%= data.site.siteurl %>/img/posts/<%= current_page.data.header_cover %>">
    	<% end %>
    	<% unless current_page.data.date.nil? %>
