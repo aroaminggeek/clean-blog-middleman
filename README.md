@@ -6,6 +6,7 @@ My code is ugly. It is not pro-level by any stretch. I will master it as I maste
 
 
 The things I've modified or added:  
+* English Ordinal dates (e.g. May 1st, 2016, June 11th, 2017 rather than May 1, June 11... ) (*requires 'facets' gem*)
 * `vendor` removed and everything smashed in to `assets`  
 * Google Analytics
 * Social & sharing buttons for each post (facebook, twitter, reddit, email)

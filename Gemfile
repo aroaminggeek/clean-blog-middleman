@@ -7,6 +7,6 @@ gem "middleman"
 gem "middleman-blog"
 gem "activesupport"
 gem 'kramdown' 
-
+gem 'facets'
 # For feed.xml.builder
 gem "builder"
